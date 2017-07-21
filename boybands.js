@@ -21,11 +21,11 @@ for (var i = 0; i < loopCount; i += 1) {
 
   // Add the band names into the correct <div>
   let currentBand = bands[i];
-  bandElement.innerHTML += `<p>${bands[i] + " "}</p>`;
+  bandElement.innerHTML += `<p>${bands[i]}</p>`;
 
   // Add the veggie names into the correct <div>
   let currentVeggie = vegetables[i];
-  veggieElement.innerHTML += `<p>${vegetables[i] + " "}</p>`;
+  veggieElement.innerHTML += `<p>${vegetables[i]}</p>`;
 
 }
 // Loop through the two arrays provided (bands and vegetables) and output each element in the arrays into their corresponding HTML <div> element. Ensure that each item is in a block element (e.g. li, div, p. etc...)
